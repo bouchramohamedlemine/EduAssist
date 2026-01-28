@@ -1,6 +1,5 @@
 # EduAssist
 
-A simple guide to set up and run the EduAssist project.  
 
 ## Setup Instructions
 
