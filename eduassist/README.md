@@ -9,8 +9,6 @@ npx create-next-app -e with-supabase
 ```
 
 **Enable the `vector` extension** (required for pgvector / semantic search):
-
-- From the **Supabase Dashboard**: Database → Extensions → enable **vector**, or  
 - In the **SQL Editor**, run:
 
 ```sql
@@ -28,6 +26,7 @@ The backend uses **Supabase Edge Functions** and **PostgreSQL** for semantic sea
 ### 1. Semantic search (SQL + edge function)
 
 Search is powered by a **SQL function** that finds document chunks by **cosine similarity** between the user’s query embedding and chunk embeddings.
+
 
 #### `match_document_chunks`
 
@@ -71,7 +70,7 @@ We use **both** the similarity threshold and top‑k:
 - **Top‑k** limits how many chunks we return.
 - **Similarity threshold** ensures we only return chunks that are relevant enough. That keeps context high‑quality for the LLM and avoids answers when the question is outside the knowledge base.
 
-If no chunks pass the threshold (or the result set is empty), we **do not** call the LLM and instead respond that the topic is not in our knowledge base (“we don’t know”).
+If no chunks pass the threshold (or the result set is empty), we **do not** call the LLM and instead respond that the topic is not in our knowledge base.
 
 ---
 
