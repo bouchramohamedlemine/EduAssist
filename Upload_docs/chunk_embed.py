@@ -187,8 +187,13 @@ def upload_to_storage(
 
     try:
         with open(local_path, "rb") as f:
-            # supabase-py upload: upload(path_in_bucket, file_obj)
-            supabase.storage.from_(storage_bucket).upload(storage_path, f)
+            # supabase-py upload: upload(path_in_bucket, file_obj, file_options)
+            # Explicitly set content type so large PDFs render correctly in the browser
+            supabase.storage.from_(storage_bucket).upload(
+                storage_path,
+                f,
+                {"content-type": "application/pdf"},
+            )
     except StorageApiError as e:
         # 409 Duplicate: file already exists in bucket – skip re-upload
         text = str(e)
