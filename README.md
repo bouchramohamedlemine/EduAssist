@@ -16,8 +16,7 @@ A simple guide to set up and run the EduAssist project.
    ```bash
    npm install
 Run the development server:
-
-  npm run dev
+   npm run dev
 
 Open the app in your browser and start asking questions.
 
