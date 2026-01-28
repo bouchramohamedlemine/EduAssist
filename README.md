@@ -24,5 +24,10 @@ Open the app in your browser and start asking questions.
 
 <img width="1121" height="704" alt="Screenshot 2026-01-28 at 23 16 29" src="https://github.com/user-attachments/assets/ad05f4e2-9b30-4016-9bcf-5e0d11ee78a2" />
 
+<br /><br />
+
 <img width="1067" height="724" alt="Screenshot 2026-01-28 at 23 16 49" src="https://github.com/user-attachments/assets/3fddd762-7fc5-40fe-9e97-52d9e19db17d" />
+
+<br /><br />
+
 <img width="1036" height="727" alt="Screenshot 2026-01-28 at 23 17 11" src="https://github.com/user-attachments/assets/aa4bbed7-a733-4606-a164-bd97006a66ee" />
