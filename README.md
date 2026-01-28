@@ -12,12 +12,9 @@
 ### 2) Next.js
 1. Navigate to the `eduassist` folder (the Next.js project).  
 2. Install dependencies:  
-   ```bash
    npm install
 Run the development server:
-   ```bash
    npm run dev
-   ```bash
 
 
 
