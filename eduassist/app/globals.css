@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Custom EduAssist Color Palette */
+    /* #f8fcfb -> hsl(165, 50%, 98%) - Very Light Mint (first-color) */
+    /* #c9fdd7 -> hsl(140, 85%, 90%) - Light Mint Green (second-color) */
+    /* #79d1c3 -> hsl(170, 50%, 65%) - Teal/Turquoise (third-color) */
+    /* #6892d5 -> hsl(215, 60%, 65%) - Blue (fourth-color) */
+    
+    --background: 165 50% 98%;
+    --foreground: 215 60% 25%;
+    --card: 0 0% 100%;
+    --card-foreground: 215 60% 25%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 60% 25%;
+    --primary: 215 60% 65%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 170 50% 65%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 140 50% 92%;
+    --muted-foreground: 215 50% 40%;
+    --accent: 140 85% 90%;
+    --accent-foreground: 215 60% 25%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 170 30% 85%;
+    --input: 0 0% 98%;
+    --ring: 215 60% 65%;
+    --chart-1: 215 60% 65%;
+    --chart-2: 170 50% 65%;
+    --chart-3: 140 85% 90%;
+    --chart-4: 165 50% 98%;
+    --chart-5: 215 50% 50%;
+    --radius: 0.75rem;
+  }
+  .dark {
+    --background: 215 60% 10%;
+    --foreground: 165 50% 98%;
+    --card: 215 60% 15%;
+    --card-foreground: 165 50% 98%;
+    --popover: 215 60% 15%;
+    --popover-foreground: 165 50% 98%;
+    --primary: 215 60% 65%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 170 50% 65%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 215 50% 20%;
+    --muted-foreground: 140 50% 80%;
+    --accent: 140 70% 70%;
+    --accent-foreground: 215 60% 10%;
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 215 50% 30%;
+    --input: 215 50% 20%;
+    --ring: 215 60% 65%;
+    --chart-1: 215 60% 65%;
+    --chart-2: 170 50% 65%;
+    --chart-3: 140 70% 70%;
+    --chart-4: 215 50% 40%;
+    --chart-5: 170 40% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
