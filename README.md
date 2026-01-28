@@ -31,3 +31,13 @@ Open the app in your browser and start asking questions.
 <br /><br />
 
 <img width="1036" height="727" alt="Screenshot 2026-01-28 at 23 17 11" src="https://github.com/user-attachments/assets/aa4bbed7-a733-4606-a164-bd97006a66ee" />
+
+
+<br /><br />
+
+
+
+https://github.com/user-attachments/assets/1d340899-3339-4541-872c-55089c1a821b
+
+
+
