@@ -18,6 +18,8 @@ Run the development server:
    ```bash
    npm run dev
 
+
+
 Open the app in your browser and start asking questions.
 
 **Instructions about the Next.js app are in the README file inside the eduassist folder.**
